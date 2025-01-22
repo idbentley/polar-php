@@ -18,7 +18,9 @@ php:
     autoload: {}
     autoload-dev: {}
     require: {}
-    require-dev: {}
+    require-dev: {
+      "orchestra/testbench": "^9.6"
+    }
   clientServerStatusCodesAsErrors: true
   defaultErrorName: APIException
   flattenGlobalSecurity: true
